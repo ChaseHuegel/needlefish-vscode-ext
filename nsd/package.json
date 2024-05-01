@@ -1,0 +1,25 @@
+{
+  "name": "nsd",
+  "displayName": "NSD",
+  "description": "NSD Schema",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.88.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "nsd",
+      "aliases": ["NSD", "nsd"],
+      "extensions": [".nsd"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "nsd",
+      "scopeName": "source.nsd",
+      "path": "./syntaxes/nsd.tmLanguage.json"
+    }]
+  }
+}
