@@ -2,7 +2,9 @@
   "name": "nsd",
   "displayName": "NSD",
   "description": "NSD Schema",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "publisher": "ChaseHuegel",
+  "repository": "https://github.com/ChaseHuegel/needlefish-vscode-ext",
   "engines": {
     "vscode": "^1.88.0"
   },
